@@ -8,21 +8,21 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  mySQL,
   tailwind,
-  nodejs,
+  postgreSQL,
   mongodb,
   git,
-  figma,
+  springboot,
   docker,
   meta,
-  starbucks,
+  pro,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  evehicle,
+  adim,
+  jwt,
+  postman,
 } from "../assets";
 
 export const navLinks = [
@@ -81,32 +81,32 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "mySQL",
+    icon: mySQL,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "postgreSQL",
+    icon: postgreSQL,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "postman",
+    icon: postman,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "springboot",
+    icon: springboot,
   },
   {
     name: "docker",
@@ -118,13 +118,12 @@ const experiences = [
   {
     title: "Java Developer",
     company_name: "CUBIKSOFT TECHNOLOGY",
-    icon: starbucks,
+    icon: pro,
     iconBg: "#383E56",
     date: "June 2024 - July 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using Spring Boot and other related technologies.",
+      "A Java Developer internship provides hands-on experience with Java programming, including working on real-world projects that enhance skills in core Java concepts, object-oriented programming (OOP), and Java frameworks like Spring and Hibernate.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -161,67 +160,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-vehicle Bunk Finder",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This application is used to find charging bunk station for EVs, We can register new users, bunks and admin, We can also add new bunks and update old bunks",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: evehicle,
+    source_code_link: "https://github.com/Hariprasath36/evehicle.git",
   },
   {
-    name: "Job IT",
+    name: "Admin and User Registration Api ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This application is used to Register, Login and Logout, We can add new users and set it is a normal user or admin, After register user and admin can login to their respective page",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: adim,
+    source_code_link: "https://github.com/Hariprasath36/Admin-and-User-Login.git",
   },
   {
-    name: "Trip Guide",
+    name: "JWT Authentication and Authorisation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This application is fully based on security, In this application I used JWT to login the user, After register we run it in Postman and after login we can use JWT token to view the data",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Spring Boot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "JWT",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jwt,
+    source_code_link: "https://github.com/Hariprasath36/sping_jwt.git",
   },
 ];
 

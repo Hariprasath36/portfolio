@@ -148,7 +148,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  evehicle,
   jobit,
   tripguide,
   threejs,
