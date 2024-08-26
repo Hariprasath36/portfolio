@@ -16,7 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import postgreSQL from "./tech/postgreSQL.png";
 import reactjs from "./tech/reactjs.png";
-import mySQL from "./tech/mySQL.png";
+import mySQL from "./tech/mySql.png";
 import tailwind from "./tech/tailwind.png";
 import java from "./tech/java.png";
 import postman from "./tech/postman.png";
