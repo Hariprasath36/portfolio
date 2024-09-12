@@ -24,7 +24,10 @@ import {
   jwt,
   postman,
   cef01,
-  cef02
+  cef02,
+  cef03,
+  cef04,
+  cef05
 } from "../assets";
 
 export const navLinks = [
@@ -131,12 +134,32 @@ const experiences = [
   },
 
   {
+    title: "Java Full Stack Certificate",
+    company_name: "Qtree Technology",
+    icon: pro,
+    iconBg: "#383E56",
+    date: " Jan 2024 -Apr 2024", 
+    certificate: cef05
+  },
+
+
+  {
     title: "Java Certificate",
     company_name: "Hacker Rank",
     icon: pro,
     iconBg: "#383E56",
     date: "18 August 2024", 
     certificate: cef01
+  },
+
+
+  {
+    title: "SQL Certificate",
+    company_name: "Hacker Rank",
+    icon: pro,
+    iconBg: "#383E56",
+    date: "23 August 2024", 
+    certificate: cef03
   },
 
   {
@@ -148,12 +171,12 @@ const experiences = [
     certificate: cef02
   },
   {
-    title: "Java Certificate",
-    company_name: "Skill Rack",
+    title: "AWS Certificate",
+    company_name: "Couresera",
     icon: pro,
     iconBg: "#383E56",
-    date: "10 May 2022", 
-    certificate: cef02
+    date: "20 Dec 2021", 
+    certificate: cef04
   },
 
 

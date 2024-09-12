@@ -54,8 +54,10 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      {experience.certificate && 
       <img src={experience.certificate} alt={experience.company_name} className="w-full h-full object-contain" />
-    </VerticalTimelineElement>
+      }
+      </VerticalTimelineElement>
   );
 };
 
