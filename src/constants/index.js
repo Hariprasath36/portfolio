@@ -137,16 +137,16 @@ const testimonials = [
       "I've known Hari for the past few months, and there are several qualities that really stand out. He is highly dedicated, consistently invests extra time and effort into learning new things, and has a strong ability to quickly grasp concepts. He possesses tremendous potential that is just waiting to be fully realized.",
     name: "Gokul",
     designation: "Full Stack Developer",
-    company: "IIT Madras",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "IIT Madras"
+    
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "DEF Corp"
+   
   },
   {
     testimonial:
@@ -154,7 +154,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
