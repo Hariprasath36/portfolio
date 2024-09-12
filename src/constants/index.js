@@ -27,7 +27,8 @@ import {
   cef02,
   cef03,
   cef04,
-  cef05
+  cef05,
+  cef06
 } from "../assets";
 
 export const navLinks = [
@@ -132,6 +133,15 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "Internship Certificate",
+    company_name: "Cubiksoft Technology",
+    icon: pro,
+    iconBg: "#383E56",
+    date: " August 2024", 
+    certificate: cef06
+  },
+
 
   {
     title: "Java Full Stack Certificate",
@@ -144,7 +154,7 @@ const experiences = [
 
 
   {
-    title: "Java Certificate",
+    title: "Java basic Certificate",
     company_name: "Hacker Rank",
     icon: pro,
     iconBg: "#383E56",
@@ -154,7 +164,7 @@ const experiences = [
 
 
   {
-    title: "SQL Certificate",
+    title: "SQL basic Certificate",
     company_name: "Hacker Rank",
     icon: pro,
     iconBg: "#383E56",
@@ -172,7 +182,7 @@ const experiences = [
   },
   {
     title: "AWS Certificate",
-    company_name: "Couresera",
+    company_name: "Coursera",
     icon: pro,
     iconBg: "#383E56",
     date: "20 Dec 2021", 
@@ -196,17 +206,17 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
+      "I've had the pleasure of knowing Hari for a few months, and his dedication and passion for learning are truly remarkable. He goes the extra mile to understand new concepts and applies them effectively. Hari's eagerness to grow and his quick learning abilities make him a valuable asset.",
+    name: "RanjithKumar",
+    designation: "Python Full Stack Developer",
     company: "DEF Corp"
    
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
+      "Hari’s dedication and enthusiasm for learning are second to none. In the time I've known him, he has consistently shown an ability to master new skills quickly and effectively. His commitment and drive make him a rising star.",
+    name: "Poovendran",
+    designation: "Frontend Developer",
     company: "456 Enterprises",
     //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },

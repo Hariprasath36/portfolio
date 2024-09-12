@@ -35,6 +35,7 @@ import cef02 from "./skill.png";
 import cef03 from "./sql.png";
 import cef04 from "./aws.png";
 import cef05 from "./java_full.jpg";
+import cef06 from "./intern.png";
 
 
 
@@ -71,5 +72,6 @@ export {
   cef02,
   cef03,
   cef04,
-  cef05
+  cef05,
+  cef06
 };
