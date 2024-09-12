@@ -13,6 +13,7 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
+  console.log(experience);
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -29,6 +30,7 @@ const ExperienceCard = ({ experience }) => {
             alt={experience.company_name}
             className='w-[60%] h-[60%] object-contain'
           />
+
         </div>
       }
     >
@@ -43,7 +45,7 @@ const ExperienceCard = ({ experience }) => {
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
-        {experience.points.map((point, index) => (
+        {experience?.points?.map((point, index) => (
           <li
             key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
@@ -52,6 +54,7 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <img src={experience.certificate} alt={experience.company_name} className="w-full h-full object-contain" />
     </VerticalTimelineElement>
   );
 };
