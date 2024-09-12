@@ -23,7 +23,7 @@ import {
   adim,
   jwt,
   postman,
-  cer01,
+  cef01,
 } from "../assets";
 
 export const navLinks = [
@@ -146,7 +146,7 @@ const experiences = [
     icon: pro,
     iconBg: "#383E56",
     date: "June 2024 - August 2024",
-    image :"cer01",
+    image :"cef01",
   },
   
   
