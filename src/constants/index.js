@@ -28,7 +28,10 @@ import {
   cef03,
   cef04,
   cef05,
-  cef06
+  cef06,
+  hack,
+  jab,
+  aww
 } from "../assets";
 
 export const navLinks = [
@@ -156,7 +159,7 @@ const experiences = [
   {
     title: "Java basic Certificate",
     company_name: "Hacker Rank",
-    icon: pro,
+    icon: hack,
     iconBg: "#383E56",
     date: "18 August 2024", 
     certificate: cef01
@@ -166,7 +169,7 @@ const experiences = [
   {
     title: "SQL basic Certificate",
     company_name: "Hacker Rank",
-    icon: pro,
+    icon: hack,
     iconBg: "#383E56",
     date: "23 August 2024", 
     certificate: cef03
@@ -175,7 +178,7 @@ const experiences = [
   {
     title: "Java Certificate",
     company_name: "Skill Rack",
-    icon: pro,
+    icon: jab,
     iconBg: "#383E56",
     date: "10 May 2022", 
     certificate: cef02
@@ -183,7 +186,7 @@ const experiences = [
   {
     title: "AWS Certificate",
     company_name: "Coursera",
-    icon: pro,
+    icon: aww,
     iconBg: "#383E56",
     date: "20 Dec 2021", 
     certificate: cef04
