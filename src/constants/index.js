@@ -128,37 +128,16 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Java Developer",
-    company_name: "CUBIKSOFT TECHNOLOGY",
-    icon: pro,
-    iconBg: "#383E56",
-    date: "June 2024 - August 2024",
-    points: [
-      "Developing and maintaining web applications using Spring Boot and other related technologies.",
-      "A Java Developer internship provides hands-on experience with Java programming, including working on real-world projects that enhance skills in core Java concepts, object-oriented programming (OOP), and Java frameworks like Spring and Hibernate.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Java Developer",
-    company_name: "CUBIKSOFT TECHNOLOGY",
-    icon: pro,
-    iconBg: "#383E56",
-    date: "June 2024 - August 2024",
-    image :"cef01",
-  },
-  
   
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I've known Hari for the past few months, and there are several qualities that really stand out. He is highly dedicated, consistently invests extra time and effort into learning new things, and has a strong ability to quickly grasp concepts. He possesses tremendous potential that is just waiting to be fully realized.",
+    name: "Gokul",
+    designation: "Full Stack Developer",
+    company: "IIT Madras",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
