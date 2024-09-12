@@ -31,6 +31,8 @@ import adim from "./adim.jpg";
 import jwt from "./jwt.jpg";
 
 import cef01 from "./java_cer.png";
+import cef02 from "./skill.png";
+
 
 export {
   logo,
@@ -62,4 +64,5 @@ export {
   adim,
   jwt,
   cef01,
+  cef02,
 };

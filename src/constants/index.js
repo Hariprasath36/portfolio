@@ -24,6 +24,7 @@ import {
   jwt,
   postman,
   cef01,
+  cef02
 } from "../assets";
 
 export const navLinks = [
@@ -130,18 +131,31 @@ const experiences = [
   },
 
   {
-    title: "Java Developer",
-    company_name: "CUBIKSOFT TECHNOLOGY",
+    title: "Java Certificate",
+    company_name: "Hacker Rank",
     icon: pro,
     iconBg: "#383E56",
-    date: "June 2024 - August 2024",
-    // points: [
-    //   "Developing and maintaining web applications using Spring Boot and other related technologies.",
-    //   "A Java Developer internship provides hands-on experience with Java programming, including working on real-world projects that enhance skills in core Java concepts, object-oriented programming (OOP), and Java frameworks like Spring and Hibernate.",
-    //   "Participating in code reviews and providing constructive feedback to other developers.",
-    // ],
+    date: "18 August 2024", 
     certificate: cef01
   },
+
+  {
+    title: "Java Certificate",
+    company_name: "Skill Rack",
+    icon: pro,
+    iconBg: "#383E56",
+    date: "10 May 2022", 
+    certificate: cef02
+  },
+  {
+    title: "Java Certificate",
+    company_name: "Skill Rack",
+    icon: pro,
+    iconBg: "#383E56",
+    date: "10 May 2022", 
+    certificate: cef02
+  },
+
 
   
 
