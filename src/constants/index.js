@@ -211,16 +211,17 @@ const testimonials = [
     testimonial:
       "I've had the pleasure of knowing Hari for a few months, and his dedication and passion for learning are truly remarkable. He goes the extra mile to understand new concepts and applies them effectively. Hari's eagerness to grow and his quick learning abilities make him a valuable asset.",
     name: "RanjithKumar",
-    designation: "Python Full Stack Developer",
-    company: "DEF Corp"
+    designation: "Full Stack - Intern",
+    company: "Magizh Technologies"
    
   },
   {
     testimonial:
       "Hari’s dedication and enthusiasm for learning are second to none. In the time I've known him, he has consistently shown an ability to master new skills quickly and effectively. His commitment and drive make him a rising star.",
     name: "Poovendran",
-    designation: "Frontend Developer",
-    company: "456 Enterprises",
+    designation: "Full Stack - Intern",
+    company: "Magizh Technologies"
+   
     //image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
