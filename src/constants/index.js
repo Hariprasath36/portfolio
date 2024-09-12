@@ -23,6 +23,7 @@ import {
   adim,
   jwt,
   postman,
+  cer01,
 } from "../assets";
 
 export const navLinks = [
@@ -120,12 +121,32 @@ const experiences = [
     company_name: "CUBIKSOFT TECHNOLOGY",
     icon: pro,
     iconBg: "#383E56",
-    date: "June 2024 - July 2024",
+    date: "June 2024 - August 2024",
     points: [
       "Developing and maintaining web applications using Spring Boot and other related technologies.",
       "A Java Developer internship provides hands-on experience with Java programming, including working on real-world projects that enhance skills in core Java concepts, object-oriented programming (OOP), and Java frameworks like Spring and Hibernate.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+  {
+    title: "Java Developer",
+    company_name: "CUBIKSOFT TECHNOLOGY",
+    icon: pro,
+    iconBg: "#383E56",
+    date: "June 2024 - August 2024",
+    points: [
+      "Developing and maintaining web applications using Spring Boot and other related technologies.",
+      "A Java Developer internship provides hands-on experience with Java programming, including working on real-world projects that enhance skills in core Java concepts, object-oriented programming (OOP), and Java frameworks like Spring and Hibernate.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Java Developer",
+    company_name: "CUBIKSOFT TECHNOLOGY",
+    icon: pro,
+    iconBg: "#383E56",
+    date: "June 2024 - August 2024",
+    image :"cer01",
   },
   
   

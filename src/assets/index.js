@@ -30,6 +30,8 @@ import evehicle from "./evehicle.png";
 import adim from "./adim.jpg";
 import jwt from "./jwt.jpg";
 
+import cer01 from "./java_cer.png";
+
 export {
   logo,
   backend,
@@ -59,4 +61,5 @@ export {
   evehicle,
   adim,
   jwt,
+  cer01,
 };
