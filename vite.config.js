@@ -8,13 +8,14 @@ export default defineConfig({
     react(),
     sitemapPlugin({
       hostname: 'https://itshariprasath.vercel.app', // Your site's domain
-      // Optional: Customize the sitemap further
       routes: [
         '/',
-        '/about',   // Add paths based on your routes
+        '/about',    // Ensure these routes exist in your app
         '/projects',
         '/contact',
       ],
+      // Optional: Specify output directory for sitemap (if not using default)
+      outDir: 'dist', // Adjust if your output directory is different
     }),
   ],
 });
